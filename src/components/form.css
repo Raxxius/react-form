@@ -1,0 +1,65 @@
+body {
+    background-image: url("../resources/images/climbing-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.title-box {
+    font-size: x-large;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: block;
+    background-color: rgba(255, 238, 228, 0.95);
+    border-radius: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    font-size: large;
+}
+
+.survey-div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.checkbox-box {
+    display: inline;
+}
+
+#dropdown {
+    max-width: 60px;
+}
+
+#comments {
+    height: 200px;
+}
+
+#submit {
+    margin: 20px;
+    background-color: rgba(221, 185, 22, 0.95);
+    border-radius: 5px;
+    font-size: large;
+}
