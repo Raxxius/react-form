@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-form.github.io/static/css/main.8a58a47f.css",
+    "main.js": "/react-form.github.io/static/js/main.e4cd54d5.js",
+    "static/js/787.330f294f.chunk.js": "/react-form.github.io/static/js/787.330f294f.chunk.js",
+    "static/media/climbing-background.jpg": "/react-form.github.io/static/media/climbing-background.a2795d246b8b695ced71.jpg",
+    "index.html": "/react-form.github.io/index.html",
+    "main.8a58a47f.css.map": "/react-form.github.io/static/css/main.8a58a47f.css.map",
+    "main.e4cd54d5.js.map": "/react-form.github.io/static/js/main.e4cd54d5.js.map",
+    "787.330f294f.chunk.js.map": "/react-form.github.io/static/js/787.330f294f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a58a47f.css",
+    "static/js/main.e4cd54d5.js"
+  ]
+}
