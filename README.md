@@ -38,7 +38,11 @@ FreeCodeCamp has the following User Stories to complete:
 
 ### Basic setup
 
+The site is a single page with a title and a form.
 
+Due to the simplistic structure, everything is contained in a single react component, titled Form.
+
+![titlepage](public/docs/images/titlepage.png)
 
 ## Performance metrics 
 

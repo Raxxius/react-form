@@ -98,46 +98,46 @@ function Form() {
                         <div className="survey-radio">
                             <input 
                                 type="radio"
-                                id="experience"
+                                id="v0 to v2"
                                 name="experience"
                                 value="v0 to v2"
                                 checked={formData.experience === "v0 to v2"}
                                 onChange={handleChange}
                             />
-                            <label htmlFor="experience">v0 to v2 </label>
+                            <label htmlFor="v0 to v2">v0 to v2 </label>
                         </div>
                         <div className="survey-radio">
                             <input 
                                 type="radio"
-                                id="experience"
+                                id="v3 to v4"
                                 name="experience"
                                 value="v3 to v4"
                                 checked={formData.experience === "v3 to v4"}
                                 onChange={handleChange}
                             />
-                            <label htmlFor="experience">v3 to v4 </label>
+                            <label htmlFor="v3 to v4">v3 to v4 </label>
                         </div>
                         <div className="survey-radio">
                             <input 
                                 type="radio"
-                                id="experience"
+                                id="v5 to v6"
                                 name="experience"
                                 value="v5 to v6"
                                 checked={formData.experience === "v5 to v6"}
                                 onChange={handleChange}
                             />
-                            <label htmlFor="experience">v5 to v6 </label>
+                            <label htmlFor="v5 to v6">v5 to v6 </label>
                         </div>
                         <div className="survey-radio">
                             <input 
                                 type="radio"
-                                id="experience"
+                                id="v6+"
                                 name="experience"
                                 value="v6+"
                                 checked={formData.experience === "v6+"}
                                 onChange={handleChange}
                             />
-                            <label htmlFor="experience">v6+ </label>
+                            <label htmlFor="v6+">v6+ </label>
                         </div>
                     </div>
                     <div className="survey-div survey-div-4">
