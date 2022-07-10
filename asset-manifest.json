@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f475a4f.css",
-    "main.js": "/static/js/main.9e192ec2.js",
-    "static/js/787.330f294f.chunk.js": "/static/js/787.330f294f.chunk.js",
-    "static/media/climbing-background.jpg": "/static/media/climbing-background.a2795d246b8b695ced71.jpg",
-    "index.html": "/index.html",
-    "main.3f475a4f.css.map": "/static/css/main.3f475a4f.css.map",
-    "main.9e192ec2.js.map": "/static/js/main.9e192ec2.js.map",
-    "787.330f294f.chunk.js.map": "/static/js/787.330f294f.chunk.js.map"
+    "main.css": "/react-form/static/css/main.25608e10.css",
+    "main.js": "/react-form/static/js/main.2b2d14f4.js",
+    "static/js/787.330f294f.chunk.js": "/react-form/static/js/787.330f294f.chunk.js",
+    "static/media/climbing-background.jpg": "/react-form/static/media/climbing-background.a2795d246b8b695ced71.jpg",
+    "index.html": "/react-form/index.html",
+    "main.25608e10.css.map": "/react-form/static/css/main.25608e10.css.map",
+    "main.2b2d14f4.js.map": "/react-form/static/js/main.2b2d14f4.js.map",
+    "787.330f294f.chunk.js.map": "/react-form/static/js/787.330f294f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f475a4f.css",
-    "static/js/main.9e192ec2.js"
+    "static/css/main.25608e10.css",
+    "static/js/main.2b2d14f4.js"
   ]
 }
