@@ -42,19 +42,33 @@ The site is a single page with a title and a form.
 
 Due to the simplistic structure, everything is contained in a single react component, titled Form.
 
+Internally the form is seperated into 5 divs for formatting.
+
+The site is reponsive, addapting to small, medium and large view screen formats. 
+
 ![titlepage](public/docs/images/titlepage.png)
 
 ## Performance metrics 
 
-![Lighthouse]
+![Lighthouse](public/docs/images/lighthouse.png)
+
 
 ## Website launch
 
+Website is launched on Github pages, and can be found at:
 
+https://raxxius.github.io/react-form/
 
-![Github]
 
 # Credits
+
+- https://www.Scrimba.com for the learn React for free course
+
+- https://FreeCodeCamp.org for the responsive web design course
+
+- https://www.w3schools.com/ for general form guidance
+
+- background from https://wallpaperaccess.com/rock-climbing-desktop 
 
 
 
