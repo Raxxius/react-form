@@ -49,6 +49,7 @@ function Form() {
                             placeholder="Name"
                             onChange={handleChange}
                             value={formData.name}
+                            required
                         />
                         <label id="email-label" htmlFor="email">Email Address:</label>
                         <input 
@@ -58,6 +59,7 @@ function Form() {
                             placeholder="email address"
                             onChange={handleChange}
                             value={formData.email}
+                            required
                         />
                     </div>
                     <hr></hr>
@@ -70,6 +72,8 @@ function Form() {
                             placeholder="0"
                             onChange={handleChange}
                             value={formData.yearsclimbed}
+                            min="0"
+                            max="99"
                         />
                     
 
@@ -145,6 +149,7 @@ function Form() {
                                 checked={formData.indoorbouldering}
                                 onChange={handleChange}
                                 name="indoorbouldering"
+                                value="bouldering"
                             />
                             <label htmlFor="indoorbouldering"> Indoor bouldering</label>
                         </div>
@@ -155,6 +160,7 @@ function Form() {
                                 checked={formData.indoorlead}
                                 onChange={handleChange}
                                 name="indoorlead"
+                                value="lead"
                             />
                             <label htmlFor="indoorlead"> Indoor lead</label>
                         </div>
@@ -165,6 +171,7 @@ function Form() {
                                 checked={formData.sports}
                                 onChange={handleChange}
                                 name="sports"
+                                value="sports"
                             />
                             <label htmlFor="sports"> Outdoor sports</label>
                         </div>
@@ -175,6 +182,7 @@ function Form() {
                                 checked={formData.trad}
                                 onChange={handleChange}
                                 name="trad"
+                                value="trad"
                             />
                             <label htmlFor="trad"> Outdoor trad</label>
                             </div>
@@ -182,13 +190,14 @@ function Form() {
                     <hr></hr>
                     <div className="survey-div survey-div-5">
                         <label htmlFor="comments">In a few words, explain why you like climbing </label>
-                        <input 
+                        <textarea
                             type="textarea" 
                             id="comments" 
                             checked={formData.comments}
                             onChange={handleChange}
                             name="comments"
-                        />
+                        >
+                        </textarea>
                     </div>
                     <button id="submit" onClick={handleOnClick} style={{
                         backgroundColor: isActive ? 'salmon' : '',
