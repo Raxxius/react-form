@@ -19,10 +19,10 @@ label {
 }
 
 .title-box {
-    font-size: x-large;
+    font-size: large;
     color: #ffffff;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .form {
@@ -41,8 +41,8 @@ label {
     flex-direction: column;
     padding: 15px;
     text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .checkbox-box {
@@ -62,4 +62,28 @@ label {
     background-color: rgba(221, 185, 22, 0.95);
     border-radius: 5px;
     font-size: large;
+}
+
+#submit:hover {
+    background-color: orange;
+}
+
+
+
+
+@media only screen and (min-width: 760px) {
+
+.title-box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.survey-div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 }

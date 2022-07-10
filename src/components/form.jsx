@@ -2,6 +2,7 @@ import React from "react"
 import './form.css'
 
 function Form() {
+    const [isActive, setIsActive] = React.useState(false);
     const [formData, setFormData] = React.useState(
         {
             name: "",
@@ -28,6 +29,7 @@ function Form() {
 
     function handleOnClick() {
         alert("This is not a real form")
+        setIsActive(current => !current);
     }
 
     return (
@@ -188,7 +190,10 @@ function Form() {
                             name="comments"
                         />
                     </div>
-                    <button id="submit" onClick={handleOnClick}>Submit</button>
+                    <button id="submit" onClick={handleOnClick} style={{
+                        backgroundColor: isActive ? 'salmon' : '',
+                        color: isActive ? 'white' : '',
+                    }}>Submit</button>
                 </form>
                 
             </div>
